@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">EasyList</string>
+    <string name="google_maps_api_key">AIzaSyBROBcbLvGlrUqKuUnYCJekV0C_1UQlZFA</string>
+
+    <string name="email">Email</string>
+    <string name="pw">Password</string>
+    <string name="login">Login</string>
+    <string name="or">Or</string>
+    <string name="new_to_app">New to EasyList? Register Here</string>
+    <string name="reg">Register</string>
+    <string name="sign_up_as_buyer">Sign up as a Buyer</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter a Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="next">Next</string>
+    <string name="sign_up_as_seller">Sign up as a Seller</string>
+    <string name="enter_shop_name">Enter Shop Name</string>
+    <string name="enter_shop_address">Enter Shop Address</string>
+    <string name="sign_up_as">Sign up as</string>
+    <string name="buyer">Buyer</string>
+    <string name="seller">Seller</string>
+    <string name="have_a_business">Have a Business?</string>
+    <string name="change_lang">Change Language</string>
+
+    <string name="categories">Categories</string>
+    <string name="top_selling_items">Top Selling Items</string>
+    <string name="items">Items</string>
+    <string name="selected_list">Selected List:</string>
+    <string name="add_to_list">Add to list</string>
+    <string name="search_items">Search Items</string>
+    <string name="enter_a_list_name">Enter a list name</string>
+    <string name="create">Create</string>
+    <string name="view_edit">View/Edit</string>
+    <string name="stock">Stock</string>
+    <string name="price">Price</string>
+    <string name="add_to_inventory">Add to inventory</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="logout">Logout</string>
+    <string name="request_list">Request List</string>
+    <string name="inventory">Inventory</string>
+    <string name="set_shop_location">Set Shop Location</string>
+    <string name="availability">Availability</string>
+    <string name="shop_name">Shop Name</string>
+    <string name="available_items">Available items</string>
+    <string name="found_items">Found items</string>
+    <string name="not_found_items">Not found items</string>
+    <string name="delete">Delete</string>
+    <string name="lists">Lists</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="requested_list">Requested List</string>
+    <string name="rs">Rs.</string>
+    <string name="price2">Price: </string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="requested">Requested</string>
+    <string name="accepted">Accepted</string>
+    <string name="ready">Ready</string>
+    <string name="completed">Completed</string>
+    <string name="you_are_searching">You are searching</string>
+    <string name="unit_price">Unit Price</string>
+    <string name="add_item">Add Item</string>
+    <string name="ordername">Orders</string>
+    <string name="offered_in">Offered in:  </string>
+    <string name="profile">Profile</string>
+    <string name="notifications">Notifications</string>
+
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

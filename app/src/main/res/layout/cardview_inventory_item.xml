@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewItem"
+    android:layout_width="120dp"
+    android:layout_height="250dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="10dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewInventoryItem"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#2d2d2d"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/textViewInventoryItemName"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:gravity="center"
+            android:text="Item Name"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnDecUnitPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="-"
+                android:textSize="10sp" />
+
+            <EditText
+                android:id="@+id/etUnitPrice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/unit_price"
+                android:inputType="number|numberDecimal"
+                android:textAlignment="center"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnIncUnitPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="+"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnDecQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="-"
+                android:textSize="10sp" />
+
+            <EditText
+                android:id="@+id/etQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/stock"
+                android:inputType="number|numberDecimal"
+                android:textAlignment="center"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnIncQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="+"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAddToInventory"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#03A9F4"
+            android:text="@string/add_to_inventory"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

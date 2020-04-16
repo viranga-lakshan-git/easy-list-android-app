@@ -1,0 +1,77 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<resources>
+    <string name="app_name">EasyList</string>
+    <string name="google_maps_api_key">AIzaSyBROBcbLvGlrUqKuUnYCJekV0C_1UQlZFA</string>
+
+    <string name="email">විද්යුත් තැපෑල</string>
+    <string name="pw">රහස් පදය</string>
+    <string name="login">ඇතුල් වන්න</string>
+    <string name="or">හෝ</string>
+    <string name="new_to_app">EasyList එකට අලුත්ද? මෙහි ලියාපදිංචි වන්න</string>
+    <string name="reg">ලියාපදිංචි වන්න</string>
+    <string name="sign_up_as_buyer">ගැනුම්කරුවෙකු ලෙස ලියාපදිංචි වන්න</string>
+    <string name="enter_name">නම ඇතුළත් කරන්න</string>
+    <string name="enter_mobile_number">ජංගම දුරකථන අංකය ඇතුළත් කරන්න</string>
+    <string name="enter_address">ලිපිනය ඇතුළත් කරන්න</string>
+    <string name="enter_email">විද්‍යුත් තැපෑල ඇතුළත් කරන්න</string>
+    <string name="enter_password">මුරපදයක් යොදන්න</string>
+    <string name="confirm_password">මුරපදය තහවුරු කරන්න</string>
+    <string name="next">ඊළඟ</string>
+    <string name="sign_up_as_seller">විකුණුම්කරුවෙකු ලෙස ලියාපදිංචි වන්න</string>
+    <string name="enter_shop_name">සාප්පු නාමය ඇතුළත් කරන්න</string>
+    <string name="enter_shop_address">සාප්පු ලිපිනය ඇතුළත් කරන්න</string>
+    <string name="sign_up_as">ලියාපදිංචි වන්න</string>
+    <string name="buyer">ගැනුම්කරු</string>
+    <string name="seller">විකුණුම්කරු</string>
+    <string name="have_a_business">ව්‍යාපාරයක් තිබේද?</string>
+    <string name="change_lang">භාෂාව වෙනස් කරන්න</string>
+
+    <string name="categories">භාණ්ඩ වර්ග</string>
+    <string name="top_selling_items">ඉහළම විකුණුම් අයිතම</string>
+    <string name="items">අයිතම</string>
+    <string name="selected_list">තෝරාගත් ලැයිස්තුව:</string>
+    <string name="add_to_list">ලැයිස්තුවට එක් කරන්න</string>
+    <string name="search_items">අයිතම සොයන්න</string>
+    <string name="enter_a_list_name">ලැයිස්තු නාමයක් ඇතුළත් කරන්න</string>
+    <string name="create">සාදන්න</string>
+    <string name="view_edit">සංස්කරණය/බලන්න</string>
+    <string name="stock">ප්‍රමාණය</string>
+    <string name="price">මිල</string>
+    <string name="add_to_inventory">තොගයට එකතු කරන්න</string>
+    <string name="name">නාමය</string>
+    <string name="address">ලිපිනය</string>
+    <string name="mobile_number">ජංගම දූරකථන අංකය</string>
+    <string name="logout">පිටතට</string>
+    <string name="request_list">ලැයිස්තුව ඉල්ලන්න</string>
+    <string name="inventory">තොගය</string>
+    <string name="set_shop_location">සාප්පු ස්ථානය ඇතුල් කරන්න</string>
+    <string name="availability">ලබා ගත හැකි</string>
+    <string name="shop_name">සාප්පු නම</string>
+    <string name="available_items">ලබා ගත හැකි අයිතම</string>
+    <string name="found_items">හමු වූ අයිතම</string>
+    <string name="not_found_items">හමු නොවූ අයිතම</string>
+    <string name="delete">මකන්න</string>
+    <string name="lists">ලැයිස්තු</string>
+    <string name="customer_name">පාරිභෝගිකයාගේ නම</string>
+    <string name="requested_list">ඉල්ලූ ලැයිස්තුව</string>
+    <string name="rs">රු.</string>
+    <string name="price2">මිල: </string>
+    <string name="accept">පිළිගන්න</string>
+    <string name="reject">ප්‍රතික්ෂේප කරන්න</string>
+    <string name="requested">ඉල්ලීම්</string>
+    <string name="accepted">පිළිගත්</string>
+    <string name="ready">සූදානම්</string>
+    <string name="completed">සම්පුර්ණ කල</string>
+    <string name="you_are_searching">ඔබ දැන් සොයන දේ</string>
+    <string name="unit_price">ඒකක මිල</string>
+    <string name="add_item">ලැයිස්තුවට එක් කරන්න</string>
+    <string name="ordername">නියෝග</string>ordername
+    <string name="offered_in">පිරිනැමීම:  </string>
+    <string name="profile">ගිණුම</string>
+    <string name="notifications">දැනුම්දීම්</string>
+
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

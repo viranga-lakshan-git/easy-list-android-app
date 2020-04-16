@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HomeFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/editTextSearch"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="#E3E6E7"
+                    android:hint="@string/search_items"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/imgViewMicBtn"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/buttonSearch"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:background="@drawable/ic_search_foreground"
+                    android:gravity="right"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imgViewMicBtn"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/imgViewMicBtn"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:background="@drawable/ic_mic_foreground"
+                    android:gravity="right|left"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/buttonSearch"
+                    app:layout_constraintStart_toEndOf="@+id/editTextSearch"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00A53030"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#FFFFFF"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="5dp"
+                android:text="@string/categories"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewCategory"
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:background="#E3E6E7"
+                android:contextClickable="true"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="5dp">
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A7AAA4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#FFFFFF"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="5dp"
+                android:text="@string/top_selling_items"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycleviewTopSelling"
+                android:layout_width="match_parent"
+                android:layout_height="133dp"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center|left"
+            android:background="#FFFFFF"
+            android:gravity="center|left"
+            android:orientation="horizontal"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="5dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:gravity="fill_vertical"
+                android:text="@string/items"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSelectList"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="fill_vertical"
+                android:text="@string/selected_list"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinnerSelectedList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:popupElevation="0dp"
+                android:scrollbarSize="0dp" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewItems"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contextClickable="true">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+</FrameLayout>

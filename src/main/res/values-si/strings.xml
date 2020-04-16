@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EasyList</string>
+
+    <string name="email">විද්යුත් තැපෑල</string>
+    <string name="pw">රහස් පදය</string>
+    <string name="login">ඇතුල් වන්න</string>
+    <string name="or">හෝ</string>
+    <string name="new_to_app">EasyList එකට අලුත්ද? මෙහි ලියාපදිංචි වන්න</string>
+    <string name="reg">ලියාපදිංචි වන්න</string>
+    <string name="sign_up_as_buyer">ගැනුම්කරුවෙකු ලෙස ලියාපදිංචි වන්න</string>
+    <string name="enter_name">නම ඇතුළත් කරන්න</string>
+    <string name="enter_mobile_number">ජංගම දුරකථන අංකය ඇතුළත් කරන්න</string>
+    <string name="enter_address">ලිපිනය ඇතුළත් කරන්න</string>
+    <string name="enter_email">විද්‍යුත් තැපෑල ඇතුළත් කරන්න</string>
+    <string name="enter_password">මුරපදයක් යොදන්න</string>
+    <string name="confirm_password">මුරපදය තහවුරු කරන්න</string>
+    <string name="next">ඊළඟ</string>
+    <string name="sign_up_as_seller">විකුණුම්කරුවෙකු ලෙස ලියාපදිංචි වන්න</string>
+    <string name="enter_shop_name">සාප්පු නාමය ඇතුළත් කරන්න</string>
+    <string name="enter_shop_address">සාප්පු ලිපිනය ඇතුළත් කරන්න</string>
+    <string name="sign_up_as">ලියාපදිංචි වන්න</string>
+    <string name="buyer">ගැනුම්කරු</string>
+    <string name="seller">විකුණුම්කරු</string>
+    <string name="have_a_business">ව්‍යාපාරයක් තිබේද?</string>
+    <string name="change_lang">භාෂාව වෙනස් කරන්න</string>
+</resources>

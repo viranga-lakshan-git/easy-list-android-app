@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "745272105936",
+    "firebase_url": "https://easylist-1567a.firebaseio.com",
+    "project_id": "easylist-1567a",
+    "storage_bucket": "easylist-1567a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745272105936:android:59b053e87a47b7a3",
+        "android_client_info": {
+          "package_name": "lk.sliit.easylist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745272105936-3mbtdsnor6pi5curmd2lgrbt4kuc7poo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lk.sliit.easylist",
+            "certificate_hash": "2384230e5dd5b40183006855e34941e35399ddde"
+          }
+        },
+        {
+          "client_id": "745272105936-beg6k8c4f6fsm11p4llgkk364386heos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMjlPewLpdGmuxd2za5oMLce1Q7oW-9Z4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745272105936-beg6k8c4f6fsm11p4llgkk364386heos.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

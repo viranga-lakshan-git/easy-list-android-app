@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">EasyList</string>
+
+    <string name="email">Email</string>
+    <string name="pw">Password</string>
+    <string name="login">Login</string>
+    <string name="or">Or</string>
+    <string name="new_to_app">New to EasyList? Register Here</string>
+    <string name="reg">Register</string>
+    <string name="sign_up_as_buyer">Sign up as a Buyer</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter a Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="next">Next</string>
+    <string name="sign_up_as_seller">Sign up as a Seller</string>
+    <string name="enter_shop_name">Enter Shop Name</string>
+    <string name="enter_shop_address">Enter Shop Address</string>
+    <string name="sign_up_as">Sign up as</string>
+    <string name="buyer">Buyer</string>
+    <string name="seller">Seller</string>
+    <string name="have_a_business">Have a Business?</string>
+    <string name="change_lang">Change Language</string>
+
+</resources>
